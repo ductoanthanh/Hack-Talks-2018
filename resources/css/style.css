@@ -386,6 +386,7 @@ h1 {
 h4 {
     font-weight: 800;
     color: #ad00ad;
+    font-size: 200%;
 }
 
 
@@ -679,9 +680,9 @@ h4 {
 /* ----------------------------------------------- */
 
 .section-form {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/thisyear.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/thisyear.jpg);
-    background-size: cover;
+    background: #42275a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #42275a, #734b6d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #42275a, #734b6d); 
     color: #fff;
     background-attachment: fixed;
 }
