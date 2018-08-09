@@ -140,18 +140,17 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #76a346;
     text-decoration: none;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #76a346;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
+    color: #555;
 }
 
 a:hover,
 a:active {
-    color: #555;
-    border-bottom: 1px solid transparent;
+    color: #ad00ad;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ad00ad;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
 }
 
 /* ----- BUTTONS ----- */
@@ -270,7 +269,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #76a346;
+    border-bottom: 2px solid #ad00ad;
 }
 
 

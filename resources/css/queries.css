@@ -42,6 +42,12 @@
     .contact-form { width: 80%; }
 }
 
+@media only screen and (max-width: 980px) {
+    .sale-label {
+        top: -90px;
+        right: 20px;
+    }
+}
 
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -87,7 +93,7 @@
     
     
     
-    h1 { font-size: 180%; }
+    h1 { font-size: 400%; }
     h2 { font-size: 150%; }
     
     .long-copy {
@@ -108,14 +114,45 @@
     
     .works-step { margin-bottom: 20px; }
     .works-step:last-of-type { margin-bottom: 20px; }
-    
+
+    .sale-label {
+        top: -80px;
+        right: 90px;
+    }
+
+    #sale-label-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .sale-label-text {
+        font-size: 90%;
+        top: 25px;
+    }
 }
 
 
 
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+/* Small phones: from 0 to 495px */
+@media only screen and (max-width: 495px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
+    h1 { font-size: 300%; }
+
+    .sale-label {
+        top: -90px;
+        right: 20px;
+    }
+
+    #sale-label-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .sale-label-text {
+        font-size: 90%;
+        top: 25px;
+    }
 }
 
