@@ -86,12 +86,16 @@ $(document).ready(function() {
     $('#ticket-attendee').click(function() {
         $('#attendee-options').removeClass('display-none');
         $('#student-options').addClass('display-none');
+        $('#ticket-attendee').addClass('option-is-active');
+        $('#ticket-student').removeClass('option-is-active');
     });
 
     $('#ticket-student').click(function() {
         $('#student-options').removeClass('display-none');
         $('#student-options').addClass('display-block');
         $('#attendee-options').addClass('display-none');
+        $('#ticket-attendee').removeClass('option-is-active');
+        $('#ticket-student').addClass('option-is-active');
     });
 
 

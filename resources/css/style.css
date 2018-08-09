@@ -542,8 +542,20 @@ h4 {
     padding: 5px 0;
 }
 
+.original-price {
+    opacity: .3;
+    color: rgba(0, 0, 0, .7);
+    text-decoration: line-through;
+    font-size: 60%;
+}
+
 .special-ticket {
     border: 3px solid #ededed;
+}
+
+.option-is-active {
+    color: #ad00ad;
+    font-weight: 800;
 }
 
 .btn-ticket:link,
