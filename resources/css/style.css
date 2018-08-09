@@ -663,27 +663,38 @@ h4 {
 /* FORM */
 /* ----------------------------------------------- */
 
+.section-form {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/thisyear.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/thisyear.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
 .contact-form {
     width: 60%;
     margin: 0 auto;
+    background-color: #f4f2f2;
+    padding: 40px 15px;
+    border-radius: 3px;
 }
 
 input[type=text],
-input[type=email],
-select,
-textarea {
+input[type=email] {
     width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    border: 3px solid #ad00ad;
+    color: #000;
 }
 
-textarea {
-    height: 100px;
+input[type=submit] {
+    float: right;
+    border-radius: 0;
+    border: 3px solid #ad00ad;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
+.email-row {
+    margin-top: 20px;
 }
 
 *:focus {outline: none;}
