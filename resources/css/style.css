@@ -136,6 +136,11 @@ h2:after {
     margin-top: -5px;
 }
 
+.ion-ios-checkmark-empty:before,
+.ion-ios-close-empty:before {
+    font-weight: 900 !important;
+}
+
 /* ----- LINKS ----- */
 
 a:link,
@@ -272,6 +277,15 @@ header {
     border-bottom: 2px solid #ad00ad;
 }
 
+#nav-ticket {
+    border: 2px solid #ad00ad;
+    padding: 5px;
+}
+
+#nav-ticket a {
+    color: #ad00ad;
+    font-weight: 800;
+}
 
 /* Mobile navi */
 .mobile-nav-icon {
