@@ -559,6 +559,15 @@ h4 {
     font-weight: 800;
 }
 
+.inline {
+    display: inline-block;
+}
+
+.btn-ticket span {
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
 .btn-ticket:link,
 .btn-ticket:visited {
     border: 1px solid #ad00ad;
@@ -572,11 +581,52 @@ h4 {
     color: #fff;
     background-color: #ad00ad;
     transform: scale(1.1);
-    transition: transform 0.5s, opacity 0.5s;
+    transition: all .3s cubic-bezier(.19,1,.22,1);
 }
 
-.inline {
-    display: inline-block;
+
+.btn-ticket:before,
+.btn-ticket:after {
+    content: '';
+    position: absolute;
+    top: 0.67em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all .5s cubic-bezier(.19,1,.22,1);
+    transition: all .3s cubic-bezier(.19,1,.22,1);
+}
+
+.btn-ticket:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(-120%,0);
+    transform: translate(-120%,0);
+}
+
+.btn-ticket:hover span,
+.btn-ticket:active span {
+    opacity: 0;
+}
+
+.btn-ticket:hover:before,
+.btn-ticket:active:after {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.btn-ticket:active:before {
+    -webkit-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+
+.btn-ticket-full:link,
+.btn-ticket-full:visited {
+    background-color: #ad00ad;
+    border: 1px solid #ad00ad;
+    color: #fff;
+    margin-right: 15px;
 }
 
 #ticket-attendee {
