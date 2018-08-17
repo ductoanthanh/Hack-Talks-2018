@@ -613,7 +613,7 @@ h4 {
 .btn-ticket:after {
     content: '';
     position: absolute;
-    top: 0.67em;
+    top: 0.5em;
     left: 0;
     width: 100%;
     text-align: center;
