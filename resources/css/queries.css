@@ -110,6 +110,10 @@
         font-size: 90%;
         top: 25px;
     }
+
+    .span-1-of-4 {
+        width: 49.2%;
+    }
 }
 
 

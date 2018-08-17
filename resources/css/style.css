@@ -17,8 +17,8 @@ Main color: #ad00ad
 html,
 body {
     background-color: #fff;
-    color: #555;
-    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    color: #2c3c45;
+    font-family: 'Lato', 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -555,6 +555,16 @@ h4 {
 
 .ticket-box ul li {
     padding: 5px 0;
+    color: #282828;
+}
+
+.ticket-box ul .unavailable, .ion-ios-close-empty {
+    color: #979797;
+}
+
+.ticket-box ul .unavailable {
+    font-style: italic;
+    font-size: 85%;
 }
 
 .original-price {
@@ -662,6 +672,7 @@ h4 {
     display: none;
 }
 
+
 /* ----------------------------------------------- */
 /* IMAGE SHOWCASE */
 /* ----------------------------------------------- */
@@ -720,10 +731,6 @@ h4 {
 .links-photo img {
     width: 100%;
     height: auto;
-}
-
-.black {
-    background-color: #8e8e8e;
 }
 
 .links-title {
