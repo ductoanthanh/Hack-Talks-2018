@@ -61,19 +61,19 @@
             <div class="row center">
                 <div class="col span-1-of-4 box">
                     <h5>Attendees</h5>
-                    <h4>300+</h4>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <h5>Speakers</h5>
-                    <h4>10+</h4>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <h5>Partners</h5>
-                    <h4>30+</h4>
+                    <h4>1400+</h4>
                 </div>
                 <div class="col span-1-of-4 box">
                     <h5>Countries</h5>
                     <h4>10+</h4>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h5>Workshops</h5>
+                    <h4>4</h4>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h5>Keynotes</h5>
+                    <h4>5</h4>
                 </div>
             </div>   
         </section>
@@ -131,11 +131,11 @@
             <div class="row">
                 <h2>Speakers</h2>
             </div>
-            <div class="row center">
+            <div class="row center" id="speakers-list">
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/jasmine.jpg" alt="JasmineGreenaway" class="speaker-photo">
                     <div class="name">Jasmine Greenaway</div>
-                    <div>Cloud Developer Advocate</div>
+                    <div id="jasmine_title">Cloud Developer Advocate</div>
                     <div class="speaker-company">Microsoft</div>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -377,11 +377,11 @@
                         Be in touch and get the <strong>latest news and tips</strong> to your inbox once in a while
                     </div>
                     <div class="row email-row">
-                        <input class="btn-ticket btn-ticket-full" type="submit" value="Subscribe" />
+                        <input class="btn-ticket btn-ticket-full" type="submit" value="Subscribe" id="subscribe" />
                         <div style="overflow: hidden">
-                           <input type="email" placeholder="Your email address" />
+                           <input type="email" placeholder="Your Email" />
                         </div>
-                    </div>                   
+                    </div>                  
                 </form>  
             </div>
         </section>

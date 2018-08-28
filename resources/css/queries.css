@@ -162,6 +162,10 @@
         text-transform: none;
         padding: 10px 20px;
     }
+
+    #jasmine_title {
+        font-size: 90%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -182,6 +186,15 @@
     .sale-label-text {
         font-size: 14px;
         top: 22px;
+    }
+
+    #jasmine_title {
+        font-size: 86%;
+    }
+
+    #subscribe {
+        width: 40%;
+        padding: 10px 0;
     }
 }
 
@@ -216,5 +229,17 @@
     .sale-label-text {
         font-size: 12px;
         top: 20px;
+    }
+
+    #speakers-list {
+        font-size: 80%;
+    }
+
+    #jasmine_title {
+        font-size: 90%;
+    }
+
+    .soon {
+        font-size: 90%;
     }
 }
