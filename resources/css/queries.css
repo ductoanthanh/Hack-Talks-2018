@@ -120,6 +120,14 @@
     .speaker-modal-image {
         height: 300px;
     }
+
+    .modal-info {
+        text-align: center;
+    }
+
+    .abstract {
+        width: 100%;
+    }
 }
 
 

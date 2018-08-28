@@ -993,14 +993,6 @@ footer p {
     background-color: darkgray;
 }
 
-.keynote-photo {
-    width: 7rem;
-    height: 7rem;
-    float: left;
-    margin-right: 10px;
-    object-fit: cover;
-}
-
 .abstract {
     line-height: 145%;
     width: 85%;
@@ -1015,7 +1007,6 @@ footer p {
     margin-bottom: 8px;
     font-size: 110%;
 }
-
 
 .read-more-state {
   display: none;
