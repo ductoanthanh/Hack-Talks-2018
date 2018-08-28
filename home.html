@@ -132,25 +132,25 @@
                 <h2>Speakers</h2>
             </div>
             <div class="row center" id="speakers-list">
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box" id="trigger_jasmine">
                     <img src="resources/img/jasmine.jpg" alt="JasmineGreenaway" class="speaker-photo">
                     <div class="name">Jasmine Greenaway</div>
                     <div id="jasmine_title">Cloud Developer Advocate</div>
                     <div class="speaker-company">Microsoft</div>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box" id="trigger_mikko">
                     <img src="resources/img/mikko.jpg" alt="MikkoHypponen" class="speaker-photo">
                     <div class="name">Mikko Hyppönen</div>
                     <div>Chief Research Officer</div>
                     <div class="speaker-company">F-Secure</div>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box" id="trigger_ines">
                     <img src="resources/img/ines.jpg" alt="InesMontani" class="speaker-photo">
                     <div class="name">Ines Montani</div>
                     <div>Founder</div>
                     <div class="speaker-company">Explosion AI</div>
                 </div>
-                <div class="col span-1-of-4 box">
+                <div class="col span-1-of-4 box" id="trigger_charlie">
                     <img src="resources/img/charlie.jpg" alt="CharlieGerard" class="speaker-photo">
                     <div class="name">Charlie Gerard</div>
                     <div>Senior Software Developer</div>
@@ -161,6 +161,114 @@
                 <strong class="soon">More speakers to be announced soon...</strong>
             </div>
         </section>
+
+
+        <div class="modal display-none" id="jasmine_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/jasmine.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Cloud Developer Advocate</h5>
+                        <h3 style="font-size: 200%">Jasmine Greenaway</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Jasmine is an NYC based developer and Cloud Developer Advocate at Microsoft. With words and code, she uses Azure to illustrate the awesome things developers can do with the cloud. Her 8 years of development experience has led her to different development environments and industries, such as in retail with Sears, gaming with Rockstar Games, and prior to Microsoft, .NET developer tooling as a software engineer at GitHub. She also teaches the basics of web development as an adjunct professor at LaGuardia Community College in Queens, NYC. Outside of work, she volunteers as a co-organizer at BrooklynJS, a monthly meetup held in the Cobble Hill area of Brooklyn, NYC.
+                            </p>
+                            <div>
+                                <a href=""><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">Keynote title</h5>
+                                <h5 style="font-weight: 500">Embracing Constant Change</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <h5 class="keynote">Keynote abstract</h5>
+                                <img src="http://thoibao.com/wp-content/uploads/2018/03/1-13.jpg" alt="AI" class="keynote-photo">
+                                <div>
+                                  <input type="checkbox" class="read-more-state" id="post-2" />
+
+                                  <div class="read-more-wrap">
+                                    <p class="abstract">
+                                        Today, the speed at which new technologies, libraries, and ideas are introduced and readily available for consumption is increasing. Innovation is all around us and its velocity can make keeping up with it a challenge. It can feel overwhelming when you’ve been focused on the scope and problems of your day to day development environment.<br>
+                                    </p>
+                                    <p class="abstract read-more-target">
+                                        Believe it or not, we’ve been through this before: when we learned how to code we started from nothing; depending on how long ago that experience was, we most likely don’t remember just how hard it was. Although we have changed in our personal and professional lives since the first time we put our code into production, that fervent learner is still inside all of us. We owe it to ourselves to support the curiosity we all have for the new and/or improved. But how do you find what excites you? Where do you even start?<br><br>
+                                        This talk will explore ways to manage the process of learning and trying new technologies. We’ll do this by talking about why you’d want to keep learning, strategies on how to get started and stay consistent, and finally look at a few interesting technologies to inspire you. This talk is meant to encourage developers to understand that while learning something new can be intimidating, it is an investment in themselves. 
+                                    </p>
+                                  </div>
+                                  
+                                  <label for="post-2" class="read-more-trigger"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="mikko_modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <h1>Hello, I am Mikko modal!</h1>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="ines_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/ines.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Founder Of ExplosionAI</h5>
+                        <h3 style="font-size: 200%">Ines Montani</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Ines is the co-founder of Explosion AI, a digital studio specializing in tools for AI technology. She's a core developer of spaCy, one of the leading open-source libraries for Natural Language Processing in Python and Prodigy, a new data annotation tool powered by active learning. Before founding Explosion AI, she was a freelance front-end developer and strategist, using her four years executive experience in ad sales and digital marketing.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/_inesmontani"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">Keynote title</h5>
+                                <h5 style="font-weight: 500">The AI Revolution will not be Monopolized</h5>  
+                            </div>
+                            <br>
+                            <div>
+                                <h5 class="keynote">Keynote abstract</h5>
+                                <img src="http://thoibao.com/wp-content/uploads/2018/03/1-13.jpg" alt="AI" class="keynote-photo">
+                                <p class="abstract">
+                                    Who's going to "win at AI"? There are now several large companies eager to claim that title. Others say that China will take over, leaving Europe and the US far behind. But short of true Artificial General Intelligence, there's no reason to believe that machine learning or data science will have a single winner. Instead, AI will follow the same trajectory as other technologies for building software: lots of developers, a rich ecosystem, many failed projects and a few shining success stories.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="charlie_modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <h1>Hello, I am Charlie modal!</h1>
+            </div>
+        </div>
+
 
         <section class="section-lastYear" id="lastYear">
             <div class="row">
