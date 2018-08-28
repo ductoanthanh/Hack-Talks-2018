@@ -109,5 +109,50 @@ $(document).ready(function() {
     });
 
 
+    /* Modal */
+
+    $('#trigger_jasmine').click(function() {
+        $('#jasmine_modal').removeClass('display-none');
+        $('#jasmine_modal').addClass('display-block');
+    });
+
+    $('#trigger_mikko').click(function() {
+        $('#mikko_modal').removeClass('display-none');
+        $('#mikko_modal').addClass('display-block');
+    });
+
+    $('#trigger_ines').click(function() {
+        $('#ines_modal').removeClass('display-none');
+        $('#ines_modal').addClass('display-block');
+    });
+
+    $('#trigger_charlie').click(function() {
+        $('#charlie_modal').removeClass('display-none');
+        $('#charlie_modal').addClass('display-block');
+    });
+
+    $('.close-button').click(function() {
+        $('.modal').removeClass('display-block');
+        $('.modal').addClass('display-none');
+    });
+
 
 });
+
+// var modal = document.querySelector(".modal");
+//     var trigger = document.querySelector(".trigger");
+//     var closeButton = document.querySelector(".close-button");
+
+//     function toggleModal() {
+//         modal.classList.toggle("show-modal");
+//     }
+
+//     function windowOnClick(event) {
+//         if (event.target === modal) {
+//             toggleModal();
+//         }
+//     }
+
+//     trigger.addEventListener("click", toggleModal);
+//     closeButton.addEventListener("click", toggleModal);
+//     window.addEventListener("click", windowOnClick);
