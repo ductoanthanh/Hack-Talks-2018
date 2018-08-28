@@ -135,6 +135,4 @@ $(document).ready(function() {
         $('.modal').removeClass('display-block');
         $('.modal').addClass('display-none');
     });
-
-
 });

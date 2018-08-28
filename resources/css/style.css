@@ -1007,10 +1007,48 @@ footer p {
     color: #393939;
     font-family: 'Montserrat';
     margin-bottom: 10px;
+    font-size: 80%;
 }
 
 .keynote {
     text-transform: uppercase;
     margin-bottom: 8px;
     font-size: 110%;
+}
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: 80%;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: 80%;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
