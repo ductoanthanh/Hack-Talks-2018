@@ -1,6 +1,5 @@
 /*
 Main color: #ad00ad
-
 */
 
 
@@ -900,19 +899,11 @@ footer {
     color: #dd4b39;
 }
 
-.ion-social-instagram:hover {
-    color: #517fa4;
-}
-
-
 footer p {
     color: #fff;
     text-align: center;
     margin-top: 10px;
 }
-
-
-
 
 /* ----------------------------------------------- */
 /* Animations */
@@ -1007,6 +998,10 @@ footer p {
     margin-bottom: 8px;
     font-size: 110%;
 }
+
+/* ----------------------------------------------- */
+/* Read More Long Text */
+/* ----------------------------------------------- */
 
 .read-more-state {
   display: none;
