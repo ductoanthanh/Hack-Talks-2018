@@ -135,4 +135,18 @@ $(document).ready(function() {
         $('.modal').removeClass('display-block');
         $('.modal').addClass('display-none');
     });
+
+    $(document).click(function(event) {
+    //if user click on anything except the modal itself close the modal
+      if (!$(event.target).closest("#trigger_jasmine, #trigger_mikko, #trigger_ines, #trigger_charlie, .modal-content").length) {
+        $('#jasmine_modal').removeClass('display-block');
+        $('#jasmine_modal').addClass('display-none');
+        $('#mikko_modal').removeClass('display-block');
+        $('#mikko_modal').addClass('display-none');
+        $('#ines_modal').removeClass('display-block');
+        $('#ines_modal').addClass('display-none');
+        $('#charlie_modal').removeClass('display-block');
+        $('#charlie_modal').addClass('display-none');
+      }
+    });
 });
