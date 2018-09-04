@@ -137,8 +137,13 @@
         width: 100%;
     }
 
+    .workshop-title {
+        margin-bottom: 30px;
+    }
+
     .workshop-abstract {
         font-size: 120%;
+        margin-bottom: 30px;
     }
 }
 

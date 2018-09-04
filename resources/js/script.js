@@ -131,6 +131,18 @@ $(document).ready(function() {
         $('#charlie_modal').addClass('display-block');
     });
 
+    /*WORKSHOP*/
+
+    $('#trigger_marko').click(function() {
+        $('#marko_modal').removeClass('display-none');
+        $('#marko_modal').addClass('display-block');
+    });
+
+    $('#trigger_goran').click(function() {
+        $('#goran_modal').removeClass('display-none');
+        $('#goran_modal').addClass('display-block');
+    });
+
     $('.close-button').click(function() {
         $('.modal').removeClass('display-block');
         $('.modal').addClass('display-none');
@@ -138,7 +150,7 @@ $(document).ready(function() {
 
     $(document).click(function(event) {
     //if user click on anything except the modal itself close the modal
-      if (!$(event.target).closest("#trigger_jasmine, #trigger_mikko, #trigger_ines, #trigger_charlie, .modal-content").length) {
+      if (!$(event.target).closest("#trigger_jasmine, #trigger_mikko, #trigger_ines, #trigger_charlie, #trigger_marko, #trigger_goran, .modal-content").length) {
         $('#jasmine_modal').removeClass('display-block');
         $('#jasmine_modal').addClass('display-none');
         $('#mikko_modal').removeClass('display-block');
@@ -147,6 +159,10 @@ $(document).ready(function() {
         $('#ines_modal').addClass('display-none');
         $('#charlie_modal').removeClass('display-block');
         $('#charlie_modal').addClass('display-none');
+        $('#marko_modal').removeClass('display-block');
+        $('#marko_modal').addClass('display-none');
+        $('#goran_modal').removeClass('display-block');
+        $('#goran_modal').addClass('display-none');
       }
     });
 });

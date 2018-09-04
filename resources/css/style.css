@@ -1052,7 +1052,11 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 15px 50px rgba(0,0,0,.2);
     margin-bottom: 20px;
-}    
+}
+
+.container:hover {
+    cursor: pointer;
+}
 
 .workshop-speaker-img {
     padding: 30px;
@@ -1066,13 +1070,29 @@ footer p {
     margin-bottom: 10px;
 }
 
-.workshop-speaker {
-    
-}
-
 .workshop-abstract {
     margin-bottom: 10px;
     font-size: 90%;
     color: #979797;
     text-align: justify;
+}
+
+.workshop-modal .modal-content {
+  padding: 30px;
+  height: auto;
+  text-align: center;
+}
+
+.workshop-modal .close-button {
+    width: auto;
+}
+
+.workshop-modal img {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.workshop-modal p {
+    margin-bottom: 20px;
 }
