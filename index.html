@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="Hack Talks is a one day high-tech conference with the most amazing workshops and top notch keynotes from the bleeding edge of technology.">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600, 800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,600, 800,900" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="resources/img/hacktalks_logo_sticky.png"/>
+        <title>Hack Talks</title>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/hacktalks_logo_1.svg" alt="HackTalks logo" class="logo">
+                    <img src="resources/img/hacktalks_logo_sticky.png" alt="HackTalks logo" class="logo-black">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#introduction">Why Attend?</a></li>
+                        <li><a href="#speakers">Our Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li id="nav-ticket"><a href="#plans">Tickets</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>HACK TALKS</h1>
+                <h5 class="tagline">Bringing developers around Europe together</h5>
+                <a class="btn btn-full js--scroll-to-plans" href="#">Buy Tickets</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+                <div class="sale-label">
+                    <div id="sale-label-icon"></div>
+                    <div class="sale-label-text">
+                        <span 
+                            class="font-size-small">Nov 22<sup>nd</sup>
+                        </span>
+                        <span class="font-size-bigger">2018</span>
+                        <span class="font-size-small">Helsinki</span>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        
+        <section class="section-features js--section-features" id="features">
+            <div class="row center">
+                <div class="col span-1-of-3 box">
+                    <h5>Attendees</h5>
+                    <h4>1400+</h4>
+                </div>
+                <div class="col span-1-of-3 box">
+                    <h5>Workshops</h5>
+                    <h4>4</h4>
+                </div>
+                <div class="col span-1-of-3 box">
+                    <h5>Keynotes</h5>
+                    <h4>5</h4>
+                </div>
+            </div>   
+        </section>
+         
+        <section class="section-introduction js--wp-1" id="introduction">
+            <div class="row">
+                <h2>What is Hack Talks?</h2>
+            </div>
+            <div class="row">
+                <p class="center long-copy">
+                    Hack Talks is a one day high-tech conference with the most amazing workshops and top notch keynotes from the bleeding edge of technology.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-thisyear js--wp-2">
+            <div class="row">
+                <h2>Hack Talks 2018</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-12"></div>
+                <div class="col span-4-of-12 center">
+                    <div class="thisyear-title">KEYNOTES</div>
+                    <div class="thisyear-desc">
+                        Insightful and inspiring keynotes from
+                        technical experts in security, web, cloud
+                        and data science. Five future-looking
+                        keynotes for the largest Hack Talks
+                        audience to date will give you something
+                        to think and talk about.
+                    </div>
+                </div>
+                <div class="col span-2-of-12"></div> 
+                <div class="col span-4-of-12 center">
+                    <div class="thisyear-title">WORKSHOPS</div>
+                    <div class="thisyear-desc">
+                        Two tracks of workshops from a variety of
+                        industry-leaders are a great opportunity to
+                        deep dive into current topics. Hands-on
+                        sessions provide immediately actionable
+                        takeaways for professionals and students
+                        alike.
+                    </div>
+                </div>
+                <div class="col span-1-of-12"></div>
+            </div>
+        </section>
+        
+        <section class="section-speakers js--wp-3" id="speakers">
+            <div class="row">
+                <h2>Speakers</h2>
+            </div>
+            <div class="row center" id="speakers-list">
+                <div class="col span-1-of-5 box" id="trigger_jasmine">
+                    <img src="resources/img/jasmine.jpg" alt="JasmineGreenaway" class="speaker-photo">
+                    <div class="name">Jasmine Greenaway</div>
+                    <div id="jasmine_title">Cloud Developer Advocate</div>
+                    <div class="speaker-company">Microsoft</div>
+                </div>
+                <div class="col span-1-of-5 box" id="trigger_mikko">
+                    <img src="resources/img/mikko.jpg" alt="MikkoHypponen" class="speaker-photo">
+                    <div class="name">Mikko Hyppönen</div>
+                    <div>Chief Research Officer</div>
+                    <div class="speaker-company">F-Secure</div>
+                </div>
+                <div class="col span-1-of-5 box" id="trigger_ines">
+                    <img src="resources/img/ines.jpg" alt="InesMontani" class="speaker-photo">
+                    <div class="name">Ines Montani</div>
+                    <div>Founder</div>
+                    <div class="speaker-company">Explosion AI</div>
+                </div>
+                <div class="col span-1-of-5 box" id="trigger_charlie">
+                    <img src="resources/img/charlie.jpg" alt="CharlieGerard" class="speaker-photo">
+                    <div class="name">Charlie Gerard</div>
+                    <div>Senior Software Developer</div>
+                    <div class="speaker-company">ThoughtWorks</div>
+                </div>
+                <div class="col span-1-of-5 box" id="trigger_michael">
+                    <img src="resources/img/michael.jpg" alt="MichaelSlater" class="speaker-photo">
+                    <div class="name">Michael Slater</div>
+                    <div>Product Manager</div>
+                    <div class="speaker-company">Facebook</div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="modal display-none" id="jasmine_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/jasmine.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Cloud Developer Advocate</h5>
+                        <h3 style="font-size: 200%">Jasmine Greenaway</h3>
+                        <hr>   
+                    </div>
+                    <div class="row modal-info" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Jasmine is an NYC based developer and Cloud Developer Advocate at Microsoft. With words and code, she uses Azure to illustrate the awesome things developers can do with the cloud. Her 8 years of development experience has led her to different development environments and industries, such as in retail with Sears, gaming with Rockstar Games, and prior to Microsoft, .NET developer tooling as a software engineer at GitHub. She also teaches the basics of web development as an adjunct professor at LaGuardia Community College in Queens, NYC. Outside of work, she volunteers as a co-organizer at BrooklynJS, a monthly meetup held in the Cobble Hill area of Brooklyn, NYC.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/paladique" target="_blank"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">Embracing Constant Change</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <div>
+                                  <input type="checkbox" class="read-more-state" id="post-2" />
+
+                                  <div class="read-more-wrap">
+                                    <p class="abstract">
+                                        Today, the speed at which new technologies, libraries, and ideas are introduced and readily available for consumption is increasing. Innovation is all around us and its velocity can make keeping up with it a challenge. It can feel overwhelming when you’ve been focused on the scope and problems of your day to day development environment.<br><br>
+                                        Believe it or not, we’ve been through this before: when we learned how to code we started from nothing; depending on how long ago that experience was, we most likely don’t remember just how hard it was. Although we have changed in our personal and professional lives since the first time we put our code into production, that fervent learner is still inside all of us. We owe it to ourselves to support the curiosity we all have for the new and/or improved. But how do you find what excites you? Where do you even start?<br><br>
+                                        This talk will explore ways to manage the process of learning and trying new technologies. We’ll do this by talking about why you’d want to keep learning, strategies on how to get started and stay consistent, and finally look at a few interesting technologies to inspire you. This talk is meant to encourage developers to understand that while learning something new can be intimidating, it is an investment in themselves. 
+                                    </p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="mikko_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/mikko.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Chief Research Officer</h5>
+                        <h3 style="font-size: 200%">Mikko Hyppönen</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Mikko Hypponen is a worldwide authority on computer security and the Chief Research Officer of F-Secure. He has written on his research for the New York Times, Wired and Scientific American and lectured at the universities of Oxford, Stanford and Cambridge. He sits in the advisory boards of EUROPOL and the Monetary Authority of Singapore.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/mikko" target="_blank"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">Cyber arms race</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="abstract">
+                                    We are living in a world where cyber attacks have become the norm. New kinds of attackers appear, with new targets, new motivations and new methods. To understand and to fight the attacks, we need to understand who the attackers are. Mikko Hypponen will look at the latest big hacking cases and reveal what really went on.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="ines_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/ines.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Founder Of ExplosionAI</h5>
+                        <h3 style="font-size: 200%">Ines Montani</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Ines is the co-founder of Explosion AI, a digital studio specializing in tools for AI technology. She's a core developer of spaCy, one of the leading open-source libraries for Natural Language Processing in Python and Prodigy, a new data annotation tool powered by active learning. Before founding Explosion AI, she was a freelance front-end developer and strategist, using her four years executive experience in ad sales and digital marketing.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/_inesmontani" target="_blank"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">The AI Revolution will not be Monopolized</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="abstract">
+                                    Who's going to "win at AI"? There are now several large companies eager to claim that title. Others say that China will take over, leaving Europe and the US far behind. But short of true Artificial General Intelligence, there's no reason to believe that machine learning or data science will have a single winner. Instead, AI will follow the same trajectory as other technologies for building software: lots of developers, a rich ecosystem, many failed projects and a few shining success stories.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="charlie_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/charlie.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Senior Software Developer</h5>
+                        <h3 style="font-size: 200%">Charlie Gerard</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Charlie is a software developer living in Sydney. She is passionate about creative coding and building interactive prototypes mixing science, art and technology. She also spends time giving back to the community by mentoring new developers, contributing to open-source projects and speaking at events.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/devdevcharlie" target="_blank"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">The usefulness of useless knowledge.</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="abstract">
+                                    When was the last time you built something for fun? Not for money, not because you had to, but simply because you were really excited about an idea.<br><br>
+
+                                    Coding is a very creative field, but for some reason, we mostly measure our value on how practical our solutions are.<br><br>
+
+                                    We don’t talk enough about the many benefits of making something useless, so in this talk, I would like to bring you on my personal journey of experimenting with technology for the sole purpose of satisfying my curiosity.<br><br>
+
+                                    From making an interactive music poster to controlling interfaces with brain waves, I will present, through stories, tips and demos, why building dumb things is not only fun, but essential.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal display-none" id="michael_modal">
+            <div class="modal-content row" style="padding: 0">
+                <div class="col span-1-of-3 speaker-modal-image" 
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/michael.jpg)">  
+                </div>
+                <div class="col span-2-of-3">
+                    <span class="close-button">×</span>
+                    <div style="padding: 10px">
+                        <h5 style="font-size: 130%">Product Manager</h5>
+                        <h3 style="font-size: 200%">Michael Slater</h3>
+                        <hr>   
+                    </div>
+                    <div class="row" style="padding: 10px">
+                        <div class="col span-1-of-2">
+                            <p class="abstract">
+                                Michael is a Product Manager at Facebook London, working on AR Studio. He joined Facebook five years ago as an iOS Engineer and has been a Product Manager for three years. Michael’s work at Facebook has been primarily camera related, including work on experimental apps such as Slingshot and Riff, as well as his more recent work on AR. After studying Electronic Engineering at the University of York, he juggled running a theatre company with building medical software systems with Cambridge Addenbrooke's Hospital, before joining a startup called Zeebox, and then eventually landing at Facebook.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/" target="_blank"><i class="ion-social-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <div>
+                                <h5 class="keynote">Coming soon</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <p class="abstract">
+                                    Talk abstract coming soon
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section-workshop js--wp-7" id="workshop">
+            <div class="row">
+                <h2>Workshops</h2>
+            </div>
+            
+            <div class="row center" id="workshop-options">
+                <div>
+                    <div class="inline option-is-active" id="workshop-all">All</div>
+                    <div class="inline" id="workshop-cloud">Cloud Track</div>
+                    <div class="inline" id="workshop-ai">AI Track</div>
+                </div>
+            </div>
+
+            <div id="cloud-workshops">
+                <div class="row container" id="trigger_marko">
+                    <div class="col span-1-of-4">
+                        <img class="workshop-speaker-img" src="resources/img/marko.jpg"/>
+                    </div>
+                    <div class="col span-3-of-4">
+                        <p class="workshop-title">Modern development pipeline using containers and cloud</p>     
+                        <p class="workshop-abstract">
+                            How's and why's of setting up a modern node/react-based development pipeline for continuous deployment. A hands-on exercise on how to get a quick start to a development setup including best practices, container technologies and automated testing. This session will tangibly describe the tools and practices necessary for producing modern, high-quality software products quickly and efficiently.
+                        </p>
+                        <p class="workshop-speaker"><strong><i class="ion-person"></i> Marko Klemetti - <span>CTO @ Eficode</span></strong></p>
+                        <div class="track"><span class="cloud">Cloud track</span></div>
+                    </div>
+                </div>
+                <div class="row container" id="trigger_goran">
+                    <div class="col span-1-of-4">
+                        <img class="workshop-speaker-img" src="./resources/img/goran.jpg"/>
+                    </div>
+                    <div class="col span-3-of-4">
+                        <p class="workshop-title">Alexa Skill Development</p>
+                        <p class="workshop-abstract">
+                            Alexa is the speech and personal assistant technology that powers Amazon Echo. It can be used to listen music, check weather and traffic, answer questions, control household devices and much more. In this workshop you’ll get a hands-on introduction to Amazon Alexa and its ecosystem, and you’ll learn how to build Alexa skill from scratch. You'll create Alexa skill by programming AWS Lambda function in Node.js, you'll store skill data in DynamoDB database and you'll learn how to use SSML (Speech Synthesis Markup Language). Target audience for this workshop are developers who would like to extend their knowledge in order to be able to develop and publish skills for Alexa.
+                        </p>
+                        <p class="workshop-speaker"><strong><i class="ion-person"></i> Goran Vuksic - <span>Solution Architect @ Agnitio</span></strong></p>
+                        <div class="track"><span class="cloud">Cloud track</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="ai-workshops">
+                <div class="row container" id="trigger_tuomas">
+                    <div class="col span-1-of-4">
+                        <img class="workshop-speaker-img" src="./resources/img/tuomas.jpg"/>
+                    </div>
+                    <div class="col span-3-of-4">
+                        <p class="workshop-title">Running data science pipelines on the GPU using RAPIDS</p>
+                        <p class="workshop-abstract">
+                            RAPIDS is a set of open-source libraries enabling you to run data science pipelines entirely on the GPU with familiar Python interfaces. By tapping into the parallelism of GPUs, RAPIDS not only accelerates training of data science models but also speeds up common data preparation tasks resulting into faster iteration of your pipelines. In this workshop, you will learn how to get up to speed with RAPIDS as we interactively explore data ingestion and preparation as well as model training and inference using realistic examples.
+                        </p>
+                        <p class="workshop-speaker"><strong><i class="ion-person"></i> Tuomas Rintamäki - <span>Deep learning engineer @ NVIDIA</span></strong></p>
+                        <div class="track"><span class="ai">AI track</span></div>
+                    </div>
+                </div>
+            </div>     
+        </section>
+
+        <div id="marko_modal" class="modal workshop-modal display-none">
+            <div class="modal-content row">
+                    <img src="resources/img/marko.jpg" />
+                    <span class="close-button">x</span>
+                    <p>
+                        Marko Klemetti is the CTO of Eficode (www.eficode.com) and a founder in many startups such as Trail (www.trail.fi) and Freeed (www.freeed.com). Eficode is the leading Devops company in the Nordics with six offices and more than 250 people. Marko is a passionate coder and a firm believer in Continuous Deployment and how good software production practices can
+                    </p>
+                    <a href="https://twitter.com/mrako" target="_blank"><i class="ion-social-twitter"></i></a>
+          </div>
+        </div>
+
+        <div id="goran_modal" class="modal workshop-modal display-none">
+            <div class="modal-content row">
+                    <img src="resources/img/goran.jpg" />
+                    <span class="close-button">x</span>
+                    <p>
+                        Goran works as a solution architect for Agnitio, company that delivers groundbreaking digital communication solutions for pharma and life science companies. He has 14 years of work experience in IT and wide knowledge about various technologies and programming languages. He worked on various projects for notable clients and projects he worked on have been featured many times on web sites like Forbes, The Next Web, TechCrunch, The Guardian, The Verge, Macworld and others. In the last few years, he attended several hackathons and other competitions on which his skills and work were recognised and awarded.
+                    </p>
+                    <a href="https://twitter.com/gvuksic" target="_blank"><i class="ion-social-twitter"></i></a>
+          </div>
+        </div>
+
+        <div id="tuomas_modal" class="modal workshop-modal display-none">
+            <div class="modal-content row">
+                    <img src="resources/img/tuomas.jpg" />
+                    <span class="close-button">x</span>
+                    <p>
+                        Tuomas Rintamäki is a deep learning engineer at NVIDIA and a PhD student in systems analysis at Aalto University. Tuomas has worked on multiple mathematical modeling projects ranging from optimization to data science and to computer vision. He also works on the hardware and software infrastructure for managing large-scale experiments and automating model deployments.
+                    </p>
+                    <a href="https://twitter.com/tuomars" target="_blank"><i class="ion-social-twitter"></i></a>
+          </div>
+        </div>
+
+        <section class="section-schedule js--wp-8" id="schedule">
+            <div class="row">
+                <h2>Schedule</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-6"></div>
+                <div class="col span-4-of-6">
+                    <table class="table center">
+                      <tbody>
+                        <tr>
+                          <th scope="row">12:30 - 13:00</th>
+                          <td>Registration &amp; VIP Lunch</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">13:00 - 14:30</th>
+                          <td>90 min workshop</td>
+                        </tr>
+                            <tr>
+                          <th scope="row">14:30 - 15:00</th>
+                          <td>Break</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:00 - 16:30</th>
+                          <td>90 min workshop</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">16:30 - 17:30</th>
+                          <td>Evening registration &amp; lounge</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17:30 - 19:30</th>
+                          <td>Keynotes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">19:30 - 20:00</th>
+                          <td>Break</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">20:00 - 21:00</th>
+                          <td>Keynotes</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">21:00</th>
+                          <td>After-party</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="col span-1-of-6"></div>
+            </div>
+        </section>
+
+        <section class="section-lastYear" id="lastYear">
+            <div class="row">
+                <h2>Hack Talks last year</h2>
+            </div>
+            <div class="row">
+                <p class="center long-copy">
+                    Last year’s event gathered together 800 tech enthusiasts for an evening of keynotes about web and graphics.
+                </p>
+                <br>
+                <div class="wrapper center">
+                    <div class="h_iframe">
+                        <!-- a transparent image is preferable -->
+                        <img class="ratio" src="https://placehold.it/16x9"/>
+                        <iframe width="90%" height="415" src="https://www.youtube.com/embed/qZDJ1z0apVk?start=665" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-plans js--section-plans" id="plans">
+            <div class="row">
+                <h2>Tickets</h2>
+            </div>
+            <div class="row center">
+                <div>
+                    <div class="inline option-is-active" id="ticket-attendee">Attendee</div>
+                    <div class="inline" id="ticket-student">Student</div>
+                </div>
+            </div>
+            <div class="row" id="attendee-options">
+                <div class="col span-1-of-3">
+                    <div class="ticket-box">
+                        <div>
+                            <h3>VIP</h3>
+                            <p class="ticket-price">€250</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Evening keynotes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Official After-party</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Event workshops</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>VIP Lunch & Dinner</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://holvi.com/shop/junction/product/e42ea6a9787cf32e598e2604f1fa3499/" class="btn btn-ticket" data-hover="&rarr;"><span>Book Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="ticket-box js--wp-4 special-ticket">
+                        <div>
+                            <h3 class="ticket-name">Workshops + Keynotes</h3>
+                            <p class="ticket-price">€110</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Evening keynotes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Official After-party</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Event workshops</li>
+                                <li class="unavailable"><i class="ion-ios-close-empty icon-small"></i>VIP Lunch & Dinner</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://holvi.com/shop/junction/product/60844888243c99b943477fbd81783be6/" class="btn btn-ticket btn-ticket-full" data-hover="&rarr;"><span>Book Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="ticket-box">
+                        <div>
+                            <h3>Keynotes</h3>
+                            <p class="ticket-price">€75</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Evening keynotes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Official After-party</li>
+                                <li class="unavailable"><i class="ion-ios-close-empty icon-small"></i>Event workshops</li>
+                                <li class="unavailable"><i class="ion-ios-close-empty icon-small"></i>VIP Lunch & Dinner</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://holvi.com/shop/junction/product/0112ac98bfe810aabe25245b965345e4/" class="btn btn-ticket" data-hover="&rarr;"><span>Book Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row display-none" id="student-options">
+                <div class="col span-1-of-6"></div>
+                <div class="col span-2-of-6">
+                    <div class="ticket-box js--wp-4 special-ticket">
+                        <div>
+                            <h3 class="ticket-name">Workshops + Keynotes</h3>
+                            <p class="ticket-price">€39</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Evening keynotes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Official After-party</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Event workshops</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://holvi.com/shop/junction/product/9b6607f9b3d772c2c093934dce0bd203/" class="btn btn-ticket btn-ticket-full" data-hover="&rarr;"><span>Book Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-2-of-6">
+                    <div class="ticket-box">
+                        <div>
+                            <h3>Keynotes</h3>
+                            <p class="ticket-price">19€</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Evening keynotes</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Official After-party</li>
+                                <li class="unavailable"><i class="ion-ios-close-empty icon-small"></i>Event workshops</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="https://holvi.com/shop/junction/product/c6f0d5b2525119d3d09f3008f2d5ade4/" class="btn btn-ticket" data-hover="&rarr;"><span>Book Now</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-6"></div>
+            </div>
+        </section>
+
+        <section class="section-showcase">
+            <ul class="images-showcase clearfix">
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/1.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/2.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/4.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="images-showcase clearfix">
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/5.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/6.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="showcase-photo">
+                        <img src="resources/img/8.jpg" alt="Hack Talk 2017">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section-map" id="map">
+            <div class="row">
+                <h2>Venue</h2>
+            </div>
+            <div class="row">
+                <p class="center long-copy">
+                    Hack Talks is organized at Kulttuuritalo. The address is Sturenkatu 4. 00510 Helsinki. <br><br>
+
+                    It is next to Linnanmäki Amusement Park, near the Helsinki city centre, and benefits from good traffic links. Tram lines 1, 3 and 9 all pass the Helsinki Hall of Culture. Bus 23 from the Rautatientori square and Pasila station runs to and from the facilities. <br><br>
+
+                    The venue doesn't have available parking lots, so please arrive with public transportation.<br>
+                </p>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="100%" height="502" id="gmap_canvas" src="https://maps.google.com/maps?q=Sturenkatu%204%2C%2000510%20Helsinki&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-partners" id="partners">
+            <div class="row">
+                <h2>Our 2018 Partners</h2>
+            </div>
+            <div class="row center">
+                <div class="col span-1-of-6"></div>
+                <div class="col span-2-of-6">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <img class="responsive" src="resources/img/facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="col span-2-of-6">
+                    <a target="_blank" href="https://www.aalto.fi/">
+                        <img class="responsive" src="resources/img/aalto.png" alt="">
+                    </a>
+                </div>
+                <div class="col span-1-of-6"></div>
+            </div>
+        </section>
+
+        <section class="section-links">
+            <div class="row">
+                <div class="col span-1-of-12"></div>
+                <div class="col span-4-of-12">
+                    <div><strong>Organized by</strong></div>
+                    <figure class="links-photo">
+                        <img src="resources/img/junction_logos_2018.png" alt="Junction">
+                    </figure>
+                    <figure class="links-photo black">
+                        <img src="resources/img/helTech.png" alt="HelTech">
+                    </figure>              
+                </div>
+                <div class="col span-3-of-12 center">
+                    <div class="links-title"><strong>More About Junction</strong></div>
+                    <div>
+                        <ul class="links-ul">
+                            <li><a href="https://hackjunction.com/">Website</a></li>
+                            <li><a href="https://www.facebook.com/hackjunction">Facebook</a></li>
+                            <li><a href="https://twitter.com/hackjunction">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/hackjunction/">Instagram</a></li>
+                            <li>hello@hackjunction.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span-3-of-12 center">
+                    <div class="links-title"><strong>More About HelTech</strong></div>
+                    <div>
+                        <ul class="links-ul">
+                            <li><a href="http://www.heltech.org/#/">Website</a></li>
+                            <li><a href="https://www.facebook.com/HELTechMeetup/">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/hel.tech/">Twitter</a></li>
+                            <li><a href="https://twitter.com/HEL_Tech">Instagram</a></li>
+                            <li>info@aaltoes.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span-1-of-12"></div>
+            </div>
+        </section>
+        
+        <section class="section-form">
+            <div class="row">
+                <form method="post" action="https://hackjunction.us15.list-manage.com/subscribe/post?u=6dd99fd74845dfb3f1307127a&amp;id=5c2096894a" class="contact-form">
+                    <div class="row center" style="color: #000">
+                        Be in touch and get the <strong>latest news and tips</strong> to your inbox once in a while
+                    </div>
+                    <div class="row email-row">
+                        <input class="btn-ticket btn-ticket-full" type="submit" value="Subscribe" name="subscribe" id="subscribe" />
+                        <input type="text" name="b_6dd99fd74845dfb3f1307127a_5c2096894a" tabindex="-1" value="" style="display: none;">
+                        <div style="overflow: hidden">
+                           <input type="email" placeholder="Your Email" name="EMAIL" required id="email" />
+                        </div>
+                    </div>                  
+                </form>  
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="https://hacktalks.fi/code-of-conduct.html">Code Of Conduct</a></li>
+                        <li><a href="https://staging.hackjunction.com/wp-content/uploads/2018/05/Junction-Oy-Terms-of-Service-24052018.pdf">Terms Of Service</a></li>
+                        <li><a href="https://staging.hackjunction.com/wp-content/uploads/2018/05/Junction-Oy-Privacy-Policy-24052018.pdf">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/hacktalksofficial/"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/HackTalks"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/hacktalksofficial/"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2018 by HackTalks. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+    </body>  
+    
+</html>
