@@ -609,6 +609,7 @@ h4 {
 
 .inline {
     display: inline-block;
+    cursor: pointer;
 }
 
 .btn-ticket span {
@@ -690,11 +691,9 @@ h4 {
 #ticket-attendee {
     border-right: 3px solid #ad00ad;
     padding-right: 5px;
-    cursor: pointer;
 }
 
 #ticket-student {
-    cursor: pointer;
     padding-left: 2px;
 }
 
@@ -899,6 +898,10 @@ footer {
     color: #00aced;
 }
 
+.ion-social-instagram:hover {
+    color: #095589;
+}
+
 .ion-person:hover {
     color: #ad00ad;
 }
@@ -1043,6 +1046,14 @@ footer p {
   border-radius: .25em;
 }
 
+/* ----------------------------------------------- */
+/* WORKSHOPS */
+/* ----------------------------------------------- */
+
+.section-workshop {
+    padding-top: 0;
+}
+
 .container {
     width: 90%;
     height: auto;
@@ -1097,3 +1108,101 @@ footer p {
 .workshop-modal p {
     margin-bottom: 20px;
 }
+
+#workshop-options {
+    margin-bottom: 20px;
+}
+
+#workshop-all, #workshop-cloud {
+    border-right: 3px solid #ad00ad;
+}
+
+#workshop-options .inline {
+    padding: 0 8px 0 5px;
+}
+
+.track {
+    margin: 15px 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cloud {
+    border: 1px solid #57ad00;
+    background-color: #57ad00;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ai {
+    border: 1px solid #ad8200;
+    background-color: #ad8200;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#workshop .span-3-of-4 {
+    padding-top: 10px;
+}
+
+
+/* ----------------------------------------------- */
+/* SCHEDULE */
+/* ----------------------------------------------- */
+
+.table > thead > tr > th, .table > thead > tr > th,
+.table > tbody > tr > th, .table > tbody > tr > td {
+    padding: 8px;
+    line-height: 1.5;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+}
+
+#schedule {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* ----------------------------------------------- */
+/* MAP */
+/* ----------------------------------------------- */
+.mapouter {
+    text-align:right;
+    height: 502px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 5%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height: 502px;
+    width: 100%;
+    box-shadow: 0 5px 30px rgba(0,0,0,.2);
+}
+
+/* ----------------------------------------------- */
+/* PARTNERS */
+/* ----------------------------------------------- */
+
+.section-partners {
+    padding-bottom: 0;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
+
